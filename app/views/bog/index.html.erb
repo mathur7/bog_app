@@ -1,0 +1,16 @@
+<p> Welcome to the bog! </p>
+<br></br>
+
+<% @creatures.each do |creature| %>
+
+	<div>
+		<ul>
+
+			Name: <%= creature[:name] %> 
+			<br></br>
+			Description: <%= creature[:description] %><br>
+			<button><a href = "/bog/:id/edit">Edit</a> </button>
+		</ul>
+	</div>
+
+<% end %>

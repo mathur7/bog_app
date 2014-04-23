@@ -11,3 +11,52 @@
  *= require_self
  *= require_tree .
  */
+
+ body {
+ 	background:url("http://i.imgur.com/yPChZEi.png");
+ 	padding:20px;
+ 	margin:20px;
+ }
+
+ form {
+ 	text-align: center;
+ 	font-family: Impact;
+ }
+
+ input {
+ 	font-size: 20px;
+ 	border: solid black 1px;
+ 	border-radius: 20px;
+ 	text-align: center;
+ }
+
+ textarea {
+ 	font-size: 26px;
+ 	border: solid black 1px;
+ 	border-radius: 20px;
+ 	text-align: center;
+ }
+
+ button {
+	text-align: center;
+	font-family: Impact;
+	font-size: 20px;
+	background: orange;
+	border-radius: 40px;
+ }
+
+ .creature_details {
+	text-align: center;
+	font-family: Impact;
+ }
+
+ ul {
+ 	text-align: center;
+ 	font-family: Impact;
+ }
+
+ p {
+ 	text-align: center;
+ 	font-size: 25px;
+ 	font-family: Impact;
+ }

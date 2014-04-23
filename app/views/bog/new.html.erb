@@ -1,0 +1,7 @@
+<p> Add a creature! </p>
+<form action="/bog" method="post">
+    <input type="text" name="creature[name]"> <br>
+    <textarea name="creature[description]"></textarea> <br>
+	<%= token_tag form_authenticity_token %>
+    <button> Save Creature </button>
+</form>

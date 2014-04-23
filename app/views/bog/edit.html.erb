@@ -1,0 +1,14 @@
+<p> Welcome to the bog! <br>
+	Don't see updated information? Feel free to edit and update it using this form. 
+</p><br></br>
+
+<form action="/bog/<%= @creature.id %>" method="post">
+    <input name="_method" type="hidden" value="put" />
+    <input type="text" name="creature[name]" value="<%= @creature.name %>"> <br>
+    <textarea name="creature[description]" value="<%= @creature.description %>"></textarea> <br>
+    <%= token_tag form_authenticity_token %>
+
+    <button> Update Creature </button>
+</form>
+
+<!-- #tried attempting the bonus tasks but that didn't quite work -->
